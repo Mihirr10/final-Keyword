@@ -1,5 +1,7 @@
-package com.finalKeyword;
-import com.finalKeyword.time.*;
+package com.finalkeyword;
+
+import com.finalkeyword.time.*;
+
 public class Main extends Time {
 //@Override
 //   public void time(){
@@ -8,8 +10,8 @@ public class Main extends Time {
 
   public static void main(String[] args) {
 
-    Time time=new Time();
+    Time time = new Time();
 //    time.hour=45;  // error:Cannot assign a value to final variable 'hour'
-     time.time();
+    time.time();
   }
 }
